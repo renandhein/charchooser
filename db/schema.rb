@@ -10,13 +10,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_28_190834) do
+ActiveRecord::Schema.define(version: 2018_11_30_123427) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "character_traits", force: :cascade do |t|
+    t.bigint "character_id", null: false
+    t.bigint "trait_id", null: false
+    t.integer "value", null: false
+    t.index ["character_id"], name: "index_character_traits_on_character_id"
+    t.index ["trait_id"], name: "index_character_traits_on_trait_id"
+  end
+
   create_table "characters", force: :cascade do |t|
     t.string "image_path"
+  end
+
+  create_table "traits", force: :cascade do |t|
+    t.string "description"
   end
 
   create_table "users", force: :cascade do |t|
@@ -31,4 +43,6 @@ ActiveRecord::Schema.define(version: 2018_11_28_190834) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "character_traits", "characters"
+  add_foreign_key "character_traits", "traits"
 end
