@@ -1,0 +1,72 @@
+{
+  "characters": [
+    {
+      "image_path": "characters/char1.jpg",
+      "traits": {
+        "sex": 0,
+        "age": 50,
+        "weapon": 70,
+        "unusual_weapon": 40,
+        "appearance": 30,
+        "fighter": 100,
+        "wizard": 0,
+        "marksman": 0,
+        "agility": 10,
+        "alignment": 70,
+        "skin_color": 0,
+        "humanity": 100
+      }
+    },
+    {
+      "image_path": "characters/char2.jpg",
+      "traits": {
+        "sex": 100,
+        "age": 30,
+        "weapon": 60,
+        "unusual_weapon": 10,
+        "appearance": 60,
+        "fighter": 0,
+        "wizard": 0,
+        "marksman": 100,
+        "agility": 40,
+        "alignment": 70,
+        "skin_color": 0,
+        "humanity": 100
+      }
+    },
+    {
+      "image_path": "characters/char3.jpg",
+      "traits": {
+        "sex": 100,
+        "age": 30,
+        "weapon": 50,
+        "unusual_weapon": 70,
+        "appearance": 60,
+        "fighter": 50,
+        "wizard": 50,
+        "marksman": 0,
+        "agility": 50,
+        "alignment": 30,
+        "skin_color": 50,
+        "humanity": 0
+      }
+    },
+    {
+      "image_path": "characters/char4.jpg",
+      "traits": {
+        "sex": 100,
+        "age": 70,
+        "weapon": 0,
+        "unusual_weapon": 90,
+        "appearance": 30,
+        "fighter": 0,
+        "wizard": 100,
+        "marksman": 0,
+        "agility": 10,
+        "alignment": 50,
+        "skin_color": 0,
+        "humanity": 100
+      }
+    }
+  ]
+}
