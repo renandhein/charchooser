@@ -84,6 +84,23 @@
         "skin_color": 0,
         "humanity": 50
       }
+    },
+    {
+      "image_path": "characters/char6.jpg",
+      "traits": {
+        "sex": 100,
+        "age": 70,
+        "weapon": 40,
+        "unusual_weapon": 40,
+        "appearance": 10,
+        "fighter": 80,
+        "wizard": 20,
+        "marksman": 0,
+        "agility": 50,
+        "alignment": 100,
+        "skin_color": 0,
+        "humanity": 100
+      }
     }
   ]
 }
